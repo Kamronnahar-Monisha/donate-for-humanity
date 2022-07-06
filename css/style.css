@@ -29,7 +29,7 @@ body{
     background-image: url('../images/donation4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:669px;
+    min-height:740px;
     color:white;
     text-align: center;
     position: relative;
@@ -41,7 +41,7 @@ body{
     background-color: rgba(31, 28, 28, 0.6);
 }
 .showcase-content{
-    padding:120px 0;
+    padding:170px 0;
 }
 #showcase h1{
     font-family: 'Inter', sans-serif;
