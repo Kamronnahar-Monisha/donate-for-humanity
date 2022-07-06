@@ -100,6 +100,15 @@ body{
   font-family: 'Poppins', sans-serif;
   padding:5px 0;
   margin-bottom:20px;
+  font-size:20px;
+  color:#FF5959;
+  font-weight: bold;
+}
+#donation input:focus{
+        outline:none;
+        font-size:20px;
+        color:#FF5959;
+        font-weight: bold;
 }
 #donation input::placeholder{
     font-family: 'Poppins', sans-serif; 
