@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 /* font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
+
+
+/* shared properties */
 body{
     margin:0;
 }
+.custom-color-button{
+    font-family: 'Poppins', sans-serif;
+    background-color:#FF5959;
+    padding:15px 30px;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing:1px;
+}
+.custom-color-button:hover{
+    background-color: white;
+    color:#FF5959;
+    border:3px solid #FF5959;
+}
+
+
+/* showcase-secion */
 #showcase{
     background-image: url('../images/donation4.jpg');
     background-repeat: no-repeat;
@@ -32,17 +53,57 @@ body{
     font-size:14px;
     padding:10px 450px;
 }
-.custom-color-button{
-    font-family: 'Poppins', sans-serif;
-    background-color:#FF5959;
-    padding:10px 35px;
-    color:white;
-    border:none;
-    border-radius: 10px;
-    font-weight: bold;
-    letter-spacing:1px;
+
+
+
+
+/* donation-section */
+#donation{
+    padding:100px 350px;
+    text-align: center;
 }
-.custom-color-button:hover{
-    background-color: white;
-    color:#FF5959;
+#donation h2{
+    font-family: 'Inter', sans-serif;
+    font-size:35px;
+}
+#donation p{
+    font-family: 'Poppins', sans-serif;
+    color:#707070;
+    padding:0 120px;
+}
+.amount-list{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 0;
+}
+.amount-list-item{
+    font-family: 'Inter', sans-serif;
+    width:18%;
+    padding:50px 0;
+    background-color: #FAFAFA;
+    color:#707070;
+    font-size:25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.custom-style-amount-list-item{
+  border: 3px solid #FF5959;
+  color:#FF5959;
+  background-color: #FFEEEE;
+}
+#donation input{
+  display:block;
+  width: 100%;
+  text-align: center;
+  border:none;
+  border-bottom: 2px solid #DADADA;
+  font-family: 'Poppins', sans-serif;
+  padding:5px 0;
+  margin-bottom:20px;
+}
+#donation input::placeholder{
+    font-family: 'Poppins', sans-serif; 
+    color:#B3B3B3;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
