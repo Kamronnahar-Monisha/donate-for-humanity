@@ -62,7 +62,7 @@ body{
     padding:70px 350px;
     text-align: center;
 }
-#donation h2,#donation-plan h2,#get-update h2{
+#donation h2,#donation-plan h2,#get-update h2,#latest-donation h2{
     font-family: 'Inter', sans-serif;
     font-size:35px;
 }
@@ -117,10 +117,11 @@ body{
     letter-spacing: 1px;
 }
 
-
+/* donation plan section */
 #donation-plan{
     text-align: center;
     padding:0 200px;
+    margin-bottom: 100px;
 }
 .donate-plan-list{
     display:flex;
@@ -155,6 +156,63 @@ body{
     height: 54px;
     width: 54px;
 }
+
+
+/* latest donation section */
+#latest-donation{
+    padding:0 150px;
+    text-align: center;
+}
+.donars-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.donar{
+    width:22%;
+    background-color: #f3ebeb;
+    border-radius: 20px;
+}
+.donar img{
+    width:60%;
+    height:150px;
+    object-fit: cover;
+    margin:20px 0 10px;
+    border-radius: 50%;
+}
+.donar-name{
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+    margin:0;
+}
+.donation-time{
+    color:#707070;
+    font-size: 14px;
+    margin:0;
+}
+.donation-amount{
+    display: flex;
+    margin-top:20px;
+}
+.donation-amount-box{
+    width: 50%;
+    text-align: center;
+    margin:0;
+    padding:10px 0;
+}
+.amount-level{
+    border-bottom-left-radius: 20px;
+    background-color:#e1d9d9 ;
+    color:rgb(93, 89, 89)
+}
+.amount{
+    background-color: #FF5959;
+    border-bottom-right-radius:20px ;
+    color:white
+}
+
+/* get upadate section */
+
 #get-update{
     text-align: center;
     padding:70px 350px;
@@ -186,7 +244,7 @@ body{
 }
 
 
-
+/* footer section */
 
 footer{
     text-align: center;
