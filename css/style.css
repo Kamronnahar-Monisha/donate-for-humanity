@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins&display=swap');
-/* font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif; */
 
 
 /* shared properties */
@@ -24,7 +22,7 @@ body{
 }
 
 
-/* showcase-secion */
+/* showcase-section */
 #showcase{
     background-image: url('../images/donation4.jpg');
     background-repeat: no-repeat;
@@ -38,7 +36,7 @@ body{
     position:absolute;
     height:100%;
     width: 100%;
-    background-color: rgba(31, 28, 28, 0.6);
+    background-image: linear-gradient(rgba(255,255,255,0),rgb(0,0,0));
 }
 .showcase-content{
     padding:170px 0;
@@ -211,7 +209,7 @@ body{
     color:white
 }
 
-/* get upadate section */
+/* get update section */
 
 #get-update{
     text-align: center;
